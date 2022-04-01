@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 function Info() {
-  return (<>
-    <div className="px-4 pt-4 pb-16 bg-white">INFO</div></>
-  )
+  return (
+    <>
+      <div className='max-w-5xl mx-auto px-4 sm:py-24 sm:px-6 lg:px-8 bg-white dark:bg-gray-800 shadow overflow-hidden rounded-lg'></div>
+    </>
+  );
 }
 
-export default Info
+export default Info;
