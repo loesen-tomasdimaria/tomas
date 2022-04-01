@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function Name() {
   return (
-    <div className='max-w-5xl mx-auto pt-4 pb-16 px-4 sm:pt-24 sm:px-6 lg:px-8'>
+    <div className='max-w-5xl mx-auto pt-4 px-4 sm:pt-24 sm:px-6 lg:px-8'>
       <div className='bg-white dark:bg-gray-800 shadow overflow-hidden rounded-lg'>
         <div className='px-4 py-5 sm:px-6 flex items-center justify-between'>
           <div className='flex items-center'>
