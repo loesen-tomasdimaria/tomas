@@ -56,41 +56,41 @@ function Info() {
   const social = [
     {
       name: 'GitHub',
-      href: 'https://github.com/matiaskochlowski',
+      href: 'https://github.com/loesen-tomasdimaria',
       icon: iconGithub,
     },
     {
       name: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/matias-kochlowski-62034679',
+      href: 'https://www.linkedin.com/in/tomasdim/',
       icon: iconLinkedIn,
     },
     {
       name: 'Instagram',
-      href: 'https://instagram.com/matiaskochlowski',
+      href: 'https://instagram.com/tomasdim',
       icon: iconInstagram,
     },
     {
       name: 'Twitter',
-      href: 'https://twitter.com/matikochlowski',
+      href: 'https://twitter.com/tomasdim',
       icon: iconTwitter,
     },
     {
       name: 'Facebook',
-      href: 'https://facebook.com/matiaskochlowski',
+      href: 'https://facebook.com/tomasdim',
       icon: iconFacebook,
     },
   ];
 
   return (
     <>
-      <div className='max-w-5xl mx-auto pt-4 px-4 sm:pb-10 sm:px-6 lg:px-8'>
+      <div className='max-w-5xl mx-auto pt-5 px-4 sm:pb-15 pb-24 sm:px-24 lg:px-8'>
         <div className='bg-white dark:bg-gray-800 shadow overflow-hidden rounded-lg'>
           <div className='border-t border-gray-200'>
-            <dl>
-              <div className='bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
+            <dl className='divide-y divide-gray-200 dark:divide-black'>
+              <div className='bg-white  px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                 <dt className='text-sm font-medium text-gray-400'>E-mail</dt>
                 <dd className='mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2'>
-                  Tomás Di Maria
+                  tomas.dimaria@loesen.co
                 </dd>
               </div>
               <div className='bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
@@ -101,7 +101,7 @@ function Info() {
                   Full-Stack Web Developer: Javascript
                 </dd>
               </div>
-              <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
+              <div className='bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                 <dt className='text-sm font-medium text-gray-400'>
                   Experience
                 </dt>
@@ -140,7 +140,7 @@ function Info() {
                   ))}
                 </dd>
               </div>
-              <div className='bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
+              <div className='bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                 <dt className='text-sm font-medium text-gray-400'>Social</dt>
                 <dd className='mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2'>
                   <div className='space-x-6 md:order-2 flex items-center'>
