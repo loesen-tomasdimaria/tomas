@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Name() {
   return (
     <div className='mx-auto max-w-5xl px-4 pt-4 sm:px-6 sm:pt-24 lg:px-8'>
