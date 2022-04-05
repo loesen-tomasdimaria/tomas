@@ -83,13 +83,13 @@ function Info() {
 
   return (
     <>
-      <div className='max-w-5xl mx-auto pt-5 px-4 sm:pb-15 pb-24 sm:px-24 lg:px-8'>
-        <div className='bg-white dark:bg-gray-800 shadow overflow-hidden rounded-lg'>
+      <div className='sm:pb-15 mx-auto max-w-5xl px-4 pt-5 pb-24 sm:px-24 lg:px-8'>
+        <div className='overflow-hidden rounded-lg bg-white shadow dark:bg-gray-800'>
           <div className='border-t border-gray-200'>
             <dl className='divide-y divide-gray-200 dark:divide-black'>
               <div className='bg-white  px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                 <dt className='text-sm font-medium text-gray-400'>E-mail</dt>
-                <dd className='mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2'>
+                <dd className='mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0'>
                   tomas.dimaria@loesen.co
                 </dd>
               </div>
@@ -97,7 +97,7 @@ function Info() {
                 <dt className='text-sm font-medium text-gray-400'>
                   Application for
                 </dt>
-                <dd className='mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2'>
+                <dd className='mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0'>
                   Full-Stack Web Developer: Javascript
                 </dd>
               </div>
@@ -105,14 +105,14 @@ function Info() {
                 <dt className='text-sm font-medium text-gray-400'>
                   Experience
                 </dt>
-                <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                  <span className='inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1'>
+                <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:col-span-2 sm:mt-0'>
+                  <span className='mr-3 mb-1 inline-flex items-center rounded-md bg-gray-100 px-2.5 py-0.5 text-sm font-medium text-gray-800 dark:bg-black dark:text-white'>
                     Web Development
                   </span>
-                  <span className='inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1'>
+                  <span className='mr-3 mb-1 inline-flex items-center rounded-md bg-gray-100 px-2.5 py-0.5 text-sm font-medium text-gray-800 dark:bg-black dark:text-white'>
                     Cloud Infrastructure
                   </span>
-                  <span className='inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1'>
+                  <span className='mr-3 mb-1 inline-flex items-center rounded-md bg-gray-100 px-2.5 py-0.5 text-sm font-medium text-gray-800 dark:bg-black dark:text-white'>
                     Digital Marketing
                   </span>
                 </dd>
@@ -121,13 +121,13 @@ function Info() {
                 <dt className='text-sm font-medium text-gray-400'>
                   Preferred Stack
                 </dt>
-                <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2 grid grid-cols-4'>
+                <dd className='mt-1 grid grid-cols-4 text-sm text-gray-900 dark:text-white sm:col-span-2 sm:mt-0'>
                   {techStack.map((tech) => (
                     <div
                       key={tech.name}
                       className='flex flex-col overflow-hidden'
                     >
-                      <div className='flex-1 py-1 mr-3'>
+                      <div className='mr-3 flex-1 py-1'>
                         <img
                           className='h-10'
                           src={tech.logo}
@@ -142,8 +142,8 @@ function Info() {
               </div>
               <div className='bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                 <dt className='text-sm font-medium text-gray-400'>Social</dt>
-                <dd className='mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2'>
-                  <div className='space-x-6 md:order-2 flex items-center'>
+                <dd className='mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0'>
+                  <div className='flex items-center space-x-6 md:order-2'>
                     {social.map((item) => (
                       <a
                         key={item.name}
